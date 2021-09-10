@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Lofmobile\Sales\Model\OrderAuthorizationInterface" type="Lofmobile\Sales\Model\OrderAuthorization"/>
+    <preference for="Lofmobile\Sales\Api\OrderManagementInterface" type="Lofmobile\Sales\Model\OrderManagement"/>
+    <preference for="Lofmobile\Sales\Api\OrderRepositoryInterface" type="Lofmobile\Sales\Model\OrderRepository"/>
+    <preference for="Lofmobile\Sales\Api\InvoiceRepositoryInterface" type="Lofmobile\Sales\Model\InvoiceRepository"/>
+    <preference for="Lofmobile\Sales\Api\ShipmentRepositoryInterface" type="Lofmobile\Sales\Model\ShipmentRepository"/>
+    <preference for="Lofmobile\Sales\Api\CreditmemoRepositoryInterface" type="Lofmobile\Sales\Model\CreditmemoRepository"/>
+    <preference for="Lofmobile\Sales\Api\OrderAddressRepositoryInterface" type="Lofmobile\Sales\Model\OrderAddressRepository"/>
+    <preference for="Lofmobile\Sales\Api\OrderPaymentRepositoryInterface" type="Lofmobile\Sales\Model\OrderPaymentRepository" />
+</config>
